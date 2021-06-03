@@ -55,6 +55,9 @@ struct ContentView: View {
                                 }
                             )
                         }
+                        
+                        CreditsView()
+                            .modifier(CenterModifier())
                     } // list
                 } else {
                     ScrollView(.vertical, showsIndicators: false)  {
